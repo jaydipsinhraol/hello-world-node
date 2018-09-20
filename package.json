@@ -1,0 +1,22 @@
+{
+  "name": "hello-world-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+   "hello-world-node": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydipsinhraol/hello-world-node.git"
+  },
+  "author": "jaydipsinhraol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydipsinhraol/hello-world-node/issues"
+  },
+  "homepage": "https://github.com/jaydipsinhraol/hello-world-node#readme"
+}
