@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "bin": "./bin/www",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaydipsinhraol/hello-world-node.git"
