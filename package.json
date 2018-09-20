@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "bin": {
-   "hello-world-node": "index.js"
+    "hello-world-node": "index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/jaydipsinhraol/hello-world-node/issues"
   },
-  "homepage": "https://github.com/jaydipsinhraol/hello-world-node#readme"
+  "homepage": "https://github.com/jaydipsinhraol/hello-world-node#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
 }
