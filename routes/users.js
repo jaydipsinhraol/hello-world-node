@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
-
+/* GET custome users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a custom user resource');
+});
 module.exports = router;
